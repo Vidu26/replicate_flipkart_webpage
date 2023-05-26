@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root{
+    --main-bg-color: #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+     background-color: var(--main-bg-color);
+     /* border: 2px solid aliceblue; */
+     font-family: 'Lato', sans-serif; 
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px ;
+
+}
+
+nav ul li a{
+     color: white;
+     text-decoration: none;
+}
+nav ul li a:hover{
+    /* color: black; */
+    font-weight: bold ;
+
+}
+.searchbar{
+        display: flex;
+        align-items: center;
+
+}
+.searchbar input{
+    width:30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin:  0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'Lato', sans-serif; 
+    font-weight: 900px;
+}
+ .slider{
+    
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+} 
+.card{
+    width: 91vw;
+    margin: 12px auto;
+    /* background-color: #2874f0; */
+ 
+}
+
+.card-item{
+        display: inline-flex;
+        justify-content: center;
+        width: 10vw;
+        flex-direction: column;
+        margin-right: 30px;
+        margin-top: 10px ;
+        border-radius: 10px;
+        -webkit-box-shadow: -1px 1px 227px 17px rgba(0,0,0,0.73);
+-moz-box-shadow: -1px 1px 227px 17px rgba(0,0,0,0.73);
+box-shadow: -1px 1px 227px 17px rgba(0,0,0,0.73);
+
+}
+.card{
+    margin-left: 150px;
+}
+.card h2{
+    font-family:'Lato', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    background:  filter-gradient(#b3dced, #bce0ee, horizontal);
+    background:  background-image(linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%));
+    /*var(--main-bg-color);
+     color: white; */
+    font-family: 'Lato', sans-serif;
+    
+}
+.lines{
+    font-weight: 500;
+}
